@@ -23,6 +23,6 @@ This is version 0.0.1 of automation tool.
 3. Specify TEST_ACCOUNT, TEST_EMAIL and TEST_PWD in acq/configuration/conf.py
 4. Run command below
     ```
-   python python acq/acq_main.py
+   python acq/acq_main.py
     ```
 5. Profit!   

@@ -1,4 +1,4 @@
 """Fill with appropriate values"""
-TEST_ACCOUNT = None
-TEST_EMAIL = None
-TEST_PWD = None
+TEST_ACCOUNT = 'lo4h4a'
+TEST_EMAIL = 'mekegumet@abyssmail.com'
+TEST_PWD = 'Hereisanew1!'
