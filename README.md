@@ -12,7 +12,7 @@ This is version 0.0.1 of automation tool.
    2. Resize window to left space for terminal application.
 2. Terminal
    1. Go inside project folder (acq_test).
-   2. Execute following commands
+   2. Execute following commands, in LOGROOTDIR you can find screenshots
     ```
     python3 -m venv tmp_venv
     source tmp_venv/bin/activate
@@ -28,12 +28,9 @@ This is version 0.0.1 of automation tool.
 5. Profit!
 
 ### Run on CI
-Standart Jinkins job with allocated host for UI should be enought at this point.
-Travis is not applicable for UI due to images limitation:
-https://app.travis-ci.com/github/lobgr/acq_test/builds
-Command line tests can work fine
-https://app.travis-ci.com/github/lobgr/acq_test/jobs/562046556
-According to capacities tool be virtualized and ditributed
-
-### Other
-We also should not forget about monitoring, logs collectors, etc.
+Standart Jinkins job with allocated host for UI should be enought at this point.<br> 
+Travis is not applicable for UI due to images limitation:<br>
+https://app.travis-ci.com/github/lobgr/acq_test/builds <br>
+Command line tests can work fine<br>
+https://app.travis-ci.com/github/lobgr/acq_test/jobs/562046556 <br>
+The tool can be virtualized and ditributed according to capacities.
