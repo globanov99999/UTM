@@ -6,7 +6,7 @@ This is version 0.0.1 of automation tool.
 * Safari
 * Internet
 
-### Intall and run
+### Intall and run on local machine
 1. Safari
    1. Enable "Allow Remote Automation" in "Develop".
    2. Resize window to left space for terminal application.
@@ -25,4 +25,15 @@ This is version 0.0.1 of automation tool.
     ```
    python acq/acq_main.py
     ```
-5. Profit!   
+5. Profit!
+
+### Run on CI
+Standart Jinkins job with allocated host for UI should be enought at this point.
+Travis is not applicable for UI due to images limitation:
+https://app.travis-ci.com/github/lobgr/acq_test/builds
+Command line tests can work fine
+https://app.travis-ci.com/github/lobgr/acq_test/jobs/562046556
+According to capacities tool be virtualized and ditributed
+
+### Other
+We also should not forget about monitoring, logs collectors, etc.
