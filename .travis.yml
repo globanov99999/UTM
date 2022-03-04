@@ -1,9 +1,12 @@
 # Config file for automatic testing at travis-ci.com
 
 language: python
-python:
-  - 3.8
-  - 3.9
+jobs:
+  include:
+    - name: "Python on macOS"
+      os: osx
+      osx_image: xcode13.2  # Python 3.X.X running on macOS 10.14.4
+      language: shell       # 'language: python' is an error on Travis CI macOS
 
 install:
   - pip install -r requirements.txt
