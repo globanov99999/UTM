@@ -3,10 +3,11 @@
 language: python
 python:
   - 3.8
-  - 3.10
+  - 3.9
 
 install:
   - pip install -r requirements.txt
+  - export PYTHONPATH=$(pwd)
 # command to run tests
 script:
   - python acq/acq_main.py
