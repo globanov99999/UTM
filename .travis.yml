@@ -5,7 +5,7 @@ jobs:
   include:
     - name: "Python on macOS"
       os: osx
-      osx_image: xcode12.5  # Python 3.X.X running on macOS 10.14.4
+      osx_image: xcode11.6  # Python 3.X.X running on macOS 10.14.4
       language: shell       # 'language: python' is an error on Travis CI macOS
 
 install:
